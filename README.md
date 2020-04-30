@@ -83,7 +83,7 @@ construct_n
 ```
 
 + `last_annotation_nb` is the last number used for our annotations, which is also the total number of concrete lines of our program. In the example, it's `10`
-+ `construct_$` tells Genrodin that the program have a `if`/`while` construct at a specific position. Supported formats are:
++ `construct_$x` tells Genrodin that the program have a `if`/`while` construct at a specific position. Supported formats are:
     - `while:cond:annotation_nb_before:annotation_nb_after`, where
         * `cond` is the condition of the `while` loop, which can include any Rodin-supported mathematical characters
         * `annotation_nb_before` is the annotation number preceding the `while` construct. In our example, it's `2`
